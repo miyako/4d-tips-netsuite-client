@@ -5,7 +5,7 @@ Call NetSuite OAuth API with HTTP Request
  
 * [`HMACSHA256`](https://github.com/miyako/4d-plugin-common-crypto)
 
-**Note**: you can use **PHP Execute** f you would rather not use plugins
+**Note**: you can use **PHP Execute** if you would rather not use plugins
 
 ```4d
 $success:=PHP Execute("";"hash_hmac";$hash;"sha256";$source;$key)
