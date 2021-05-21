@@ -6,6 +6,7 @@ Call NetSuite OAuth API with HTTP Request
 * [`HMACSHA256`](https://github.com/miyako/4d-plugin-common-crypto)
 * [`oauth_timestamp`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_timestamp.4dm)  
 * [`oauth_urlencode`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_urlencode.4dm)  
+* [`oauth_urldecode`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_urldecode.4dm)  
 
 **Note**: you can use **PHP Execute** instead of the plugin
 
