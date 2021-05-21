@@ -23,3 +23,6 @@ The base string must be sorted by name and value. `urlencod` is applied to both.
 
 `urlencod` is applied to both `oauth_consumer_secret` and `oauth_token_secret`. Concatenate with `&`, even if `oauth_token_secret` was an empty string.
 
+* [`oauth_authorization_header`]
+
+`oauth_callback` is double escaped.  
