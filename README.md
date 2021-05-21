@@ -13,3 +13,11 @@ Call NetSuite OAuth API with HTTP Request
 $success:=PHP Execute("";"hash_hmac";$hash;"sha256";$source;$key)
 ```
 
+#### Points of interest
+
+* [`oauth_base_string`]
+
+The base string must be sorted by name and value.  
+`urlencod` is applied to both.  
+
+
