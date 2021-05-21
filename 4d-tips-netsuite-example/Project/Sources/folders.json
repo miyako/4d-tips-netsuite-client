@@ -1,14 +1,16 @@
 ﻿{
-	"(テーブル)": {},
-	"(デフォルト)": {
-		"groups": [
-			"(テーブル)",
-			"(フォーム)",
-			"(プロジェクトメソッド)"
+	"OAuth": {
+		"methods": [
+			"oauth_authorization_header",
+			"oauth_base_string",
+			"oauth_signature"
 		]
 	},
-	"(フォーム)": {},
-	"(プロジェクトメソッド)": {},
+	"References": {
+		"methods": [
+			"test_oauth1_base_string_twitter"
+		]
+	},
 	"Timestamp": {
 		"methods": [
 			"oauth_timestamp"
@@ -16,12 +18,11 @@
 	},
 	"URL": {
 		"methods": [
+			"oauth_form_urldecode",
+			"oauth_slice_url_parameters",
+			"oauth_urldecode",
 			"oauth_urlencode"
 		]
 	},
-	"trash": {
-		"groups": [
-			"(デフォルト)"
-		]
-	}
+	"trash": {}
 }

@@ -1,5 +1,32 @@
 ﻿{
 	"methods": {
+		"oauth_urldecode": {
+			"timeStamp": "2021-05-21T06:14:53.548Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"test_oauth1_base_string_twitter": {
+			"timeStamp": "2021-05-21T05:32:48.199Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"oauth_authorization_header": {
+			"timeStamp": "2021-05-21T05:40:43.072Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"oauth_form_urldecode": {
+			"timeStamp": "2021-05-21T06:38:13.887Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
 		"oauth_urlencode": {
 			"timeStamp": "2021-05-21T05:18:11.393Z",
 			"attributes": {
@@ -8,7 +35,30 @@
 			}
 		},
 		"oauth_timestamp": {
-			"timeStamp": "2021-05-21T05:26:13.534Z",
+			"timeStamp": "2021-05-21T05:26:17.174Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"TEST": {
+			"timeStamp": "2021-05-21T06:39:36.885Z"
+		},
+		"oauth_signature": {
+			"timeStamp": "2021-05-21T05:38:28.021Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"oauth_base_string": {
+			"timeStamp": "2021-05-21T06:21:10.436Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"oauth_slice_url_parameters": {
+			"timeStamp": "2021-05-21T06:16:24.629Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
