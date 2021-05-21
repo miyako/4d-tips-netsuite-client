@@ -11,5 +11,5 @@ Call NetSuite OAuth API with HTTP Request
 $success:=PHP Execute("";"hash_hmac";$hash;"sha256";$source;$key)
 ```
 
-* [URL_Escape (Project Method in this repo)](https://github.com/miyako/4d-tips-google-service-account/blob/master/URL_Escape.txt)
-* [Unix_Timestamp (Project Method in this repo)](https://github.com/miyako/4d-tips-google-service-account/blob/master/Unix_Timestamp.txt)
+* [`oauth_timestamp`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_timestamp.4dm)
+* [`oauth_urlencode`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_urlencode.4dm)
