@@ -15,9 +15,13 @@ $success:=PHP Execute("";"hash_hmac";$hash;"sha256";$source;$key)
 
 #### Points of interest
 
+* [`oauth_form_urldecode`]
+
+Form variables need to be canonised as parameters in the base string. Note that `application/x-www-form-urlencoded` is not the same as `urlencode` used in the base string. In particular, `application/x-www-form-urlencoded` converts spaces to the plus sign (`+`), not `%20`. 
+
 * [`oauth_base_string`]
 
-The base string must be sorted by name and value. `urlencode` is applied to both.  
+The base string must be sorted by name and value. `urlencode` is applied to both. URL parameters (`?foo=bar`) are not included in the URL section of the base string, they are canonised in the parameters section of the base string. 
 
 * [`oauth_signature`]
 
@@ -26,3 +30,4 @@ The base string must be sorted by name and value. `urlencode` is applied to both
 * [`oauth_authorization_header`]
 
 `oauth_callback` is double escaped.  
+
