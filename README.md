@@ -17,7 +17,9 @@ $success:=PHP Execute("";"hash_hmac";$hash;"sha256";$source;$key)
 
 * [`oauth_base_string`]
 
-The base string must be sorted by name and value.  
-`urlencod` is applied to both.  
+The base string must be sorted by name and value. `urlencod` is applied to both.  
 
+* [`oauth_signature`]
+
+`urlencod` is applied to both `oauth_consumer_secret` and `oauth_token_secret`. Concatenate with `&`, even if `oauth_token_secret` was an empty string.
 
