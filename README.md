@@ -15,19 +15,19 @@ $success:=PHP Execute("";"hash_hmac";$hash;"sha256";$source;$key)
 
 #### Points of interest
 
-* [`oauth_form_urldecode`]
+* [`oauth_form_urldecode`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_form_urldecode.4dm)
 
 Form variables need to be canonised as parameters in the base string. Note that `application/x-www-form-urlencoded` is not the same as `urlencode` used in the base string. In particular, `application/x-www-form-urlencoded` converts spaces to the plus sign (`+`), not `%20`. 
 
-* [`oauth_base_string`]
+* [`oauth_base_string`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_base_string.4dm)
 
 The base string must be sorted by name and value. `urlencode` is applied to both. URL parameters (`?foo=bar`) are not included in the URL section of the base string, they are canonised in the parameters section of the base string. 
 
-* [`oauth_signature`]
+* [`oauth_signature`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_signature.4dm)
 
 `urlencode` is applied to both `oauth_consumer_secret` and `oauth_token_secret`. Concatenate with `&`, even if `oauth_token_secret` was an empty string.
 
-* [`oauth_authorization_header`]
+* [`oauth_authorization_header`](https://github.com/miyako/4d-tips-netsuite-client/blob/main/4d-tips-netsuite-example/Project/Sources/Methods/oauth_authorization_header.4dm)
 
 `oauth_callback` is double escaped.  
 
