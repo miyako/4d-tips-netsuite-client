@@ -3,7 +3,7 @@ Call NetSuite OAuth API with HTTP Request
 
 #### Dependencies
  
-* [`HMACSHA256`](https://github.com/miyako/4d-plugin-common-crypto)
+* [`HMACSHA256`](https://github.com/miyako/4d-plugin-common-crypto) from 4d-plugin-common-crypto
 
 **Note**: you can use **PHP Execute** instead of the plugin
 
